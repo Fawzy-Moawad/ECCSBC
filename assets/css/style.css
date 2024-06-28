@@ -2044,6 +2044,10 @@ section {
   padding-top: 30px;
 }
 
+#footer .copyright .copyRight {
+  color: #18d26e;
+}
+
 #footer .credits {
   text-align: center;
   font-size: 13px;
