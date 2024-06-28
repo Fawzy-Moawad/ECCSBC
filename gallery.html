@@ -43,77 +43,13 @@
           <nav id="navbar" class="navbar">
             <ul>
               <li><a class="nav-link scrollto" href="index.html#hero">Home</a></li>
-              <li><a class="nav-link scrollto" href="#about">About</a></li>
-              <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a href="consular.html">Consular</a></li>
-                  <li><a href="social.html">Social</a></li>
-                  <li><a href="settlement.html">Settlement</a></li>
-                  <li><a href="community.html">Community Development</a></li>
-                  <li><a href="lifeEvent.html">Life Event</a></li>
-                  <li><a href="usefulLinks.html">Useful Links</a></li>
-                </ul>
-              </li>
-              <li class="dropdown active"><a href="gallery.html"><span>Gallery</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                    <li class="dropdown"><a href="#"><span>Summer Camp</span> <i class="bi bi-chevron-right"></i></a>
-                      <ul>
-                        <li><a href="#">2015</a></li>
-                        <li><a href="#">2016</a></li>
-                        <li><a href="#">2022</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>Egyptian Brunch Event</span> <i class="bi bi-chevron-right"></i></a>
-                      <ul>
-                        <li><a href="#">2019</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>Eid Alfitr</span> <i class="bi bi-chevron-right"></i></a>
-                      <ul>
-                        <li><a href="#">2017</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>Eid Aladha</span> <i class="bi bi-chevron-right"></i></a>
-                      <ul>
-                        <li><a href="#">2015</a></li>
-                        <li><a href="#">2016</a></li>
-                        <li><a href="#">2017</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>Sham Elnaseem</span> <i class="bi bi-chevron-right"></i></a>
-                      <ul>
-                        <li><a href="#">2015</a></li>
-                        <li><a href="#">2016</a></li>
-                        <li><a href="#">2019</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>Volunteers</span> <i class="bi bi-chevron-right"></i></a>
-                      <ul>
-                        <li><a href="#">2014-2016</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>Other</span> <i class="bi bi-chevron-right"></i></a>
-                      <ul>
-                        <li><a href="#">Deep Drop Down 1</a></li>
-                        <li><a href="#">Deep Drop Down 2</a></li>
-                        <li><a href="#">Deep Drop Down 3</a></li>
-                        <li><a href="#">Deep Drop Down 4</a></li>
-                        <li><a href="#">Deep Drop Down 5</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>Clubs</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                    <li><a href="#">SOCER</a></li>
-                    <li><a href="#">YOUTH</a></li>
-                    <li><a href="#">WOMEN</a></li>
-                    <li><a href="#">SENIORS</a></li>
-                  </ul>
-              </li>
-              <li><a class="nav-link  " href="blog.html">School</a></li>
-              <li><a class="nav-link scrollto" href="#">Upcoming Events</a></li>
-              <li><a class="nav-link scrollto" href="#">Blog</a></li>
+              <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+              <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
+              <li><a class="nav-link scrollto" href="index.html#clubs">Clubs</a></li>
+              <li><a class="nav-link scrollto active" href="gallery.html">Gallery</a></li>
+              <li><a class="nav-link scrollto" href="school.html">School</a></li>
+              <li><a class="nav-link scrollto" href="upcomingEvents.html">Upcoming Events</a></li>
+              <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
               <li><a class="nav-link scrollto" href="sponsors.html">Sponsors</a></li>
               <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
             </ul>
@@ -139,13 +75,13 @@
             <div class=" col-lg-12">
                 <ul id="portfolio-flters">
                 <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-app">Summer Camp</li>
-                <li data-filter=".filter-card">Brunch Event</li>
-                <li data-filter=".filter-web">Eid Alfitr</li>
-                <li data-filter="*" class="filter-active">Eid Aladha</li>
-                <li data-filter=".filter-app">Sham Elnaseem</li>
-                <li data-filter=".filter-card">Volunteers</li>
-                <li data-filter=".filter-web">Other</li>
+                <li data-filter=".filter-camp">Summer Camp</li>
+                <li data-filter=".filter-event">Brunch Event</li>
+                <li data-filter=".filter-alfitr">Eid Alfitr</li>
+                <li data-filter=".filter-aladha">Eid Aladha</li>
+                <li data-filter=".filter-elnaseem">Sham Elnaseem</li>
+                <li data-filter=".filter-volunteers">Volunteers</li>
+                <li data-filter=".filter-other">Other</li>
                 </ul>
             </div>
           </div>
@@ -153,7 +89,7 @@
   
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
   
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-camp">
             <div class="portfolio-wrap">
               <figure>
                 <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
@@ -162,13 +98,13 @@
               </figure>
   
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">App 1</a></h4>
-                <p>App</p>
+                <h4><a href="portfolio-details.html">Summer Camp</a></h4>
+                <p>2015</p>
               </div>
             </div>
           </div>
   
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-camp">
             <div class="portfolio-wrap">
               <figure>
                 <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
@@ -177,13 +113,13 @@
               </figure>
   
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Web 3</a></h4>
-                <p>Web</p>
+                <h4><a href="portfolio-details.html">Summer Camp</a></h4>
+                <p>2016</p>
               </div>
             </div>
           </div>
   
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-camp">
             <div class="portfolio-wrap">
               <figure>
                 <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
@@ -192,13 +128,14 @@
               </figure>
   
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">App 2</a></h4>
-                <p>App</p>
+                <h4><a href="portfolio-details.html">Summer Camp</a></h4>
+                <p>2022</p>
               </div>
             </div>
           </div>
+          
   
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-event">
             <div class="portfolio-wrap">
               <figure>
                 <img src="assets/img/portfolio/card2.jpg" class="img-fluid" alt="">
@@ -207,13 +144,13 @@
               </figure>
   
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Card 2</a></h4>
-                <p>Card</p>
+                <h4><a href="portfolio-details.html">Brunch Event</a></h4>
+                <p>2019</p>
               </div>
             </div>
           </div>
   
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-alfitr">
             <div class="portfolio-wrap">
               <figure>
                 <img src="assets/img/portfolio/web2.jpg" class="img-fluid" alt="">
@@ -222,13 +159,13 @@
               </figure>
   
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Web 2</a></h4>
-                <p>Web</p>
+                <h4><a href="portfolio-details.html">Eid Alfitr</a></h4>
+                <p>2017</p>
               </div>
             </div>
           </div>
   
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-aladha">
             <div class="portfolio-wrap">
               <figure>
                 <img src="assets/img/portfolio/app3.jpg" class="img-fluid" alt="">
@@ -237,13 +174,13 @@
               </figure>
   
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">App 3</a></h4>
-                <p>App</p>
+                <h4><a href="portfolio-details.html">Eid Aladha</a></h4>
+                <p>2015</p>
               </div>
             </div>
           </div>
   
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-aladha">
             <div class="portfolio-wrap">
               <figure>
                 <img src="assets/img/portfolio/card1.jpg" class="img-fluid" alt="">
@@ -252,13 +189,13 @@
               </figure>
   
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Card 1</a></h4>
-                <p>Card</p>
+                <h4><a href="portfolio-details.html">Eid Aladha</a></h4>
+                <p>2016</p>
               </div>
             </div>
           </div>
   
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-aladha">
             <div class="portfolio-wrap">
               <figure>
                 <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
@@ -267,23 +204,83 @@
               </figure>
   
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Card 3</a></h4>
-                <p>Card</p>
+                <h4><a href="portfolio-details.html">Eid Aladha</a></h4>
+                <p>2017</p>
               </div>
             </div>
           </div>
-  
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-elnaseem">
             <div class="portfolio-wrap">
               <figure>
-                <img src="assets/img/portfolio/web1.jpg" class="img-fluid" alt="">
-                <a href="assets/img/portfolio/web1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 1"><i class="bi bi-plus"></i></a>
+                <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/card3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 3"><i class="bi bi-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
               </figure>
   
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Web 1</a></h4>
-                <p>Web</p>
+                <h4><a href="portfolio-details.html">Sham Elnaseem</a></h4>
+                <p>2015</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-elnaseem">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/card3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 3"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Sham Elnaseem</a></h4>
+                <p>2016</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-elnaseem">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/card3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 3"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Sham Elnaseem</a></h4>
+                <p>2019</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-volunteers">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/card3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 3"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Volunteers</a></h4>
+                <p>2014-2016</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-other">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/card3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 3"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              </figure>
+  
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Other</a></h4>
+                <p>Other</p>
               </div>
             </div>
           </div>
