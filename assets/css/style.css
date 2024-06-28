@@ -748,6 +748,51 @@ section {
   margin-bottom: 0;
 }
 
+/* Clubs Section
+--------------------------------*/
+#clubs {
+  background: #fff;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+}
+
+#clubs .box {
+  margin-bottom: 30px;
+}
+
+#clubs .icon {
+  float: left;
+}
+
+#clubs .icon i {
+  color: #18d26e;
+  font-size: 36px;
+  line-height: 0;
+  transition: 0.5s;
+}
+
+#clubs .title {
+  margin-left: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#clubs .title a {
+  color: #111;
+}
+
+#clubs .box:hover .title a {
+  color: #18d26e;
+}
+
+#clubs .description {
+  font-size: 14px;
+  margin-left: 60px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
