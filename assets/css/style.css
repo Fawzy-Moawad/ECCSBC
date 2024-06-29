@@ -1028,7 +1028,9 @@ section {
 
 
 #clients img {
-  opacity: 0.5;
+  height: 140px;
+  width: 100%;
+  opacity: 1;
   transition: 0.3s;
 }
 
